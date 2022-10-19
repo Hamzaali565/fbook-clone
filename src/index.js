@@ -6,7 +6,7 @@ import { faComment, faShare, faThumbsUp } from "@fortawesome/free-solid-svg-icon
 import moment from "moment";
 
 function Post(props) {
-  return (
+  return (<>
     <div className="mainDiv">
     <div className="post">
      <div className="postHeader">
@@ -32,6 +32,7 @@ function Post(props) {
       
       </div>
     </div>
+    </>
   );
 }
 ReactDom.render(
